@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<title>Javascript information</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+		<a class="navbar-brand" href="https://manjeet743.github.io/HTML/"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="https://manjeet743.github.io/HTML/">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#" style="color: black;"></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#" style="color: black;"></a>
+			</li>
+		  </ul>
+		  
+		</div>
+	  </nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<div class="info">
+					<h1 class="content-head">Introduction</h1>
+					<div class="cs-img">
+						<img src="./image/serverClient.png" class="img-fluid" alt="Responsive image"> </img>
+					</div>
+					<article class="html-content">
+						<p>JavaScript is a very powerful client-side scripting language. JavaScript is used mainly for
+							enhancing the
+							interaction of a user with the webpage. In other words, you can make your webpage more
+							lively and interactive,
+							with the help of JavaScript. JavaScript is also being used widely in game development and
+							Mobile application
+							development.
+						
+						</p>
+						<p>The language was initially called LiveScript and was later renamed JavaScript. There are many
+							programmers who
+							think that JavaScript and Java are the same. In fact, JavaScript and Java are very much
+							unrelated. Java is a
+							very complex programming language whereas JavaScript is only a scripting language. The
+							syntax of JavaScript is
+							mostly influenced by the programming language C.
+
+						</p>
+
+						<h1><a name="Example"> A Simple JavaScript Program </a></h1>
+						<p>You should place all your JavaScript code within &#60 script &#62 tags (&#60 script &#62 and
+							&#60 /script &#62)
+							if you are keeping your JavaScript code within the HTML document itself. This helps your
+							browser distinguish
+							your JavaScript code from the rest of the code. As there are other client-side scripting
+							languages (Example:
+							VBScript), it is highly recommended that you specify the scripting language you use. You
+							have to use the type
+							attribute within the &#60 script &#62 tag and set its value to text/javascript like this:
+						</p>
+						<p text-align="center"><b>&#60 script type="text/javascript"&#62 &#60 /script &#62</b></p>
+						<h3>Hello World Example:</h3>
+						<h4>
+							<pre>       &#60html&#62
+            &#60head&#62
+            &#60title&#62 My First JavaScript code!!!&#60/title&#6
+                &#60script&#62
+                alert("Hello World!");
+                &#60/script&#62
+            &#60/head&#62
+            &#60body&#62
+        
+            &#60/body&#62
+        &#60/html&#62</pre>
+						</h4>
+						<br>
+						<h1><a name="Language"> Language: </a></h1>
+						<ol>
+							<h3>
+								<li>Declaring Variables:
+							</h3>
+							<p>Before using a variable, you first need to declare it. You have to use the keyword var to
+								declare a variable.
+								Declaration makes value of the variable “undefined”.
+							<p>EX. <b>var name;</b></p>
+							</p>
+							</li>
+							<li>
+								<h3>Initializing Variable:</h3>
+								<p>You can assign a value to the variable either while declaring the variable or after
+									declaring the variable.</p>
+								<p>EX. <b>name = "John Doe";</b></p>
+								<p>Declaration and initialization may be done in same line. </p>
+								<p>EX. <b>var name = "John Doe";</b></p>
+							</li>
+							<li>
+								<h3>Variable naming rule:</h3>
+								<p>Smae as other programming languages.</p>
+							</li>
+							<li>
+								<h3>Variable Type: </h3>
+								<ul>
+									<li>
+										<h4>Numbers:</h4>
+									</li>
+									Either integers or floating point number.Not required to explicitly declare type.
+									<li>
+										<h4>Strings:</h4>
+									</li>
+									Text wrapped in either single quotes or double quotes.
+									<br>ex. <b>let name = “Your Name”;</b>
+									<li>
+										<h4>Boolean:</h4>
+									</li> true/false.
+									<br>ex. <b>let test = 6 &#60 3;</b>
+									<li>
+										<h4>Arrays:</h4>
+									</li> Single object with multiple values.
+									<br>ex. <b>let marks = [70,80,87];</b>
+									<br>Accessing individual element: marks[0];
+									<li>
+										<h4>Object:</h4>
+									</li> In JS object are represented as:
+									<br> <b>let student = {Name: “Your Name”, RollNo: 42};</b>
+									<br>for retrieving information: person.Name;
+								</ul>
+							</li>
+							<li>
+								<h3>Conditional statement:</h3>Decision making statements)
+								<ul>
+									<li>
+										<h4>if….else statement:</h4>
+									</li>
+									<pre>           if(conditon){
+                    //code;
+                }
+                                else{
+                    //code;
+                }</pre>
+									Can be nested.
+									<li>
+										<h4>logical operator:</h4>
+									</li> && → And, || → Or, ! →Not
+									<li>
+										<h4>Switch…case statement:</h4>
+									</li>
+									<pre>           switch(expression){
+                    case choice1:
+                        //code;
+                        break;
+                    case choice2:
+                        //code;
+                        break;
+                    default:
+                        //code;
+                }</pre>
+							</li>
+							</ul>
+							<li>
+								<h3>Loop:</h3>
+								<ul>
+									<li>
+										<h4>Standard For loop:</h4>
+									</li>
+									<pre>for(initializer; condition; final-expression){
+                        //code;
+    }</pre>
+									--- As with language, break and continue can
+									be used with JS loops.
+									<li>
+										<h4>Standard while loop:</h4>
+									</li>
+									<pre>initializer;
+                while(condition){
+                //code;
+    }</pre>
+									<li>
+										<h4>do…while loop:</h4>
+									</li>
+									<pre>initializer;
+                do{
+                //code;
+    }while(condition);</pre>
+								</ul>
+							<li>
+								<h3>Function: </h3>Set of statements that performs a task/computation.
+								<ul>
+									<li>
+										<h4>Declaration:</h4>
+									</li> starts with keyword function followed by name of the function, list of coma
+									separated parameters and statements inside curly braces.
+									ex. function print_hello(name){
+									console.log(“Hello ” +name);
+									}
+									Primitive parameters such as number are passed to function by value.
+									Changes inside the function is not reflected globally.
+									Non-primitive value like Array or user-defined object when passed as parameter,
+									changes in the properties done inside the function are visible globally.
+									<li>
+										<h4>Function Expression:</h4>
+									</li> Can assign function to a variable anonymously or by giving it a name.
+									<br>ex. <b>const square = function(num){<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return num ** 2;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} → square(4);<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const factorial = function fac(num){<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return num < 2 ? 1 : num *
+											fac(num – 1);<br>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} → console.log(factorial(3))<br></b>
+							</li>
+							</li>
+						</ol>
+
+					</article>
+					<h1 class="content-head">Conclusion</h1>
+					<article class="html-content">
+						<ul>
+							<li>JavaScript was initially created as a browser-only language, but it is now used in many
+								other environments
+								as well.</li>
+							<li>Today, JavaScript has a unique position as the most widely-adopted browser language with
+								full integration in
+								HTML/CSS.</li>
+							<li>There are many languages that get “transpiled” to JavaScript and provide certain
+								features. It is recommended
+								to take a look at them, at least briefly, after mastering JavaScript.</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<footer class="blog-footer">
+		<span style="color: black;">MANJEET KUMAR VISHWAKARMA-192120049</span>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
