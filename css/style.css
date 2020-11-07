@@ -1,0 +1,76 @@
+/*index  FILE STYLING*/
+.nav-back {
+    background-color: rgb(50, 200,355);
+    border:silver 1px double;
+    margin-top: 10px;
+}
+.nav-head {
+    margin: auto;
+    letter-spacing: 5px;
+}
+.box {
+    background-color: silver;
+    padding: 100px;
+    text-align: center;
+    margin:20px;
+    border-radius: 30px;
+}
+.box-btn {
+    visibility:
+}
+.blog-footer {
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(250, 100, 0);
+}
+.box:hover {
+    background-color: tomato;
+}
+/*HTML FILE STYLING*/
+.tim {
+    float: left;
+    border: black 2px solid;
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+}
+.info {
+    clear: both;
+    margin: 20px;
+}
+.content-head {
+    background-color: rgb(212, 108, 108);
+    text-align: center;
+    border-radius: 10px;
+    max-width: 700px;
+    margin:auto;
+}
+.html-content {
+    text-indent: 30px;
+    background-color: rgb(141, 206, 184);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    clear: both;
+    padding: 10px;
+    border-radius: 10px;
+    border: steelblue 10px solid;
+}
+.head-style {
+    background-color: rgb(130, 152, 216);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+.cs-img {
+    margin: 20px;
+    border: rgb(0, 63, 252) 10px solid;
+}
